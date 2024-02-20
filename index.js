@@ -57,6 +57,15 @@ questionsData
                 } else {
                     ele.style.border = "2px solid red" // incorrect answer gets red
                     ele.style.color = "red"
+
+                    // if an incorrect answer is chosen, the correct answer will automatically be highlighted -->
+
+                    Array.from(options).forEach(ele => {
+                        if (ele.innerText === correct) {
+                            ele.style.border = "2px solid green" 
+                            ele.style.color = "green"
+                        }
+                    })
                 }
             }
             optionChosen = true // once an option is selected, the option chosen becomes true
@@ -118,7 +127,3 @@ questionsData
         }
     })        
 })
-
-function valueAssigment() {
-    
-}
