@@ -1,8 +1,6 @@
 let scoreNumber = 0 // it tracks the score
 let optionChosen = false // it looks if any of the options is chosen or not
 let numberOfQuestion = 1 // it tracks the number of questions
-let randomNumber = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] // it is used to get a random number to display different questions
-
 // Selecting Elements -->
 
 const options = document.getElementsByClassName("options")
@@ -77,11 +75,11 @@ questionsData
         // it will take to the next question only if an option has been selected -->
 
         if (optionChosen) {
-            randomNumber.sort(() => Math.random() - 0.5) // the array is sorted in order to shuffle the elements randomly so that no two questions are the same
-            
+                        
             // all the values are updated accordingly -->
 
-            results = data.results[randomNumber[0]]
+            results = data.results[randomIndex()]
+            
             questions = results.question
             correct = results.correct_answer
             incorrect = results.incorrect_answers
@@ -127,3 +125,9 @@ questionsData
         }
     })        
 })
+
+// function to generate a random Index from 0 to 9 -->
+
+function randomIndex() {
+    return Math.floor(Math.random() * 10)
+}
