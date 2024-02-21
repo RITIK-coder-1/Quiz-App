@@ -2,6 +2,8 @@
 
 Welcome to the Quiz App! This web application offers a fun quiz experience with 10 random questions from the "Science & Nature" category, sourced from the [Open Trivia Database](https://opentdb.com/) API.
 
+Checkout: http://quiz.ritik.surge.sh/
+
 ## Table of Contents
 
 - [Features](#features)
