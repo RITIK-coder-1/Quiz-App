@@ -7,7 +7,6 @@ Checkout: http://quiz.ritik.surge.sh/
 ## Table of Contents
 
 - [Features](#features)
-- [Demo](#demo)
 - [Getting Started](#getting-started)
 - [How to Play](#how-to-attend)
 - [Technologies Used](#technologies-used)
@@ -20,10 +19,6 @@ Checkout: http://quiz.ritik.surge.sh/
 - Allows users to select answers and highlights correct/incorrect choices.
 - Displays the current score and question number.
 - Provides a final score at the end of the quiz.
-
-## Demo
-
-Check out the [live demo](quiz.ritik.surge.sh) 
 
 ## Getting Started
 
