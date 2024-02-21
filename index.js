@@ -1,6 +1,7 @@
 let scoreNumber = 0 // it tracks the score
 let optionChosen = false // it looks if any of the options is chosen or not
 let numberOfQuestion = 1 // it tracks the number of questions
+
 // Selecting Elements -->
 
 const options = document.getElementsByClassName("options")
