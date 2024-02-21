@@ -1,4 +1,3 @@
-# Quiz-App
 # Quiz App
 
 Welcome to the Quiz App! This web application offers a fun quiz experience with 10 random questions from the "Science & Nature" category, sourced from the [Open Trivia Database](https://opentdb.com/) API.
@@ -8,7 +7,7 @@ Welcome to the Quiz App! This web application offers a fun quiz experience with 
 - [Features](#features)
 - [Demo](#demo)
 - [Getting Started](#getting-started)
-- [How to Play](#how-to-play)
+- [How to Play](#how-to-attend)
 - [Technologies Used](#technologies-used)
 
 ## Features
@@ -19,7 +18,6 @@ Welcome to the Quiz App! This web application offers a fun quiz experience with 
 - Allows users to select answers and highlights correct/incorrect choices.
 - Displays the current score and question number.
 - Provides a final score at the end of the quiz.
-- Includes a restart button for playing the quiz again.
 
 ## Demo
 
