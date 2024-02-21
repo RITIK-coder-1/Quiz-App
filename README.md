@@ -21,7 +21,7 @@ Welcome to the Quiz App! This web application offers a fun quiz experience with 
 
 ## Demo
 
-Check out the [live demo](#) (Replace # with the actual URL once deployed).
+Check out the [live demo](quiz.ritik.surge.sh) 
 
 ## Getting Started
 
