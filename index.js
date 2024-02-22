@@ -12,7 +12,7 @@ const next = document.getElementById("next")
 const questionNumber = document.getElementById("questionNumber")
 const header = document.querySelector("header")
 const main = document.querySelector("main")
-const reset = document.getElementById("reset")
+const restart = document.getElementById("restart")
 let h1 = document.createElement("h1") // it will be displayed once all the questions have been answered
 let results // it stores the first object of the results array 
 let questions // it stores the question of the first object
@@ -127,7 +127,7 @@ function fetchQuestions() {
                     body.style.justifyContent = "center"
                     body.style.alignItems = "center"
                     body.style.fontFamily = "roboto"
-                    reset.style.visibility = "visible"
+                    restart.style.visibility = "visible"
                 }
             }
         }
@@ -136,14 +136,14 @@ function fetchQuestions() {
 
         next.addEventListener("click", nextQuestion)
 
-        // reset -->
+        // restart -->
 
-        reset.addEventListener("click", () => {
+        restart.addEventListener("click", () => {
             h1.remove()
             body.style.display = "block"
             header.style.display = "flex"
             main.style.display = "block"
-            reset.style.visibility = "hidden"
+            restart.style.visibility = "hidden"
             scoreNumber = 0
             score.innerText = `Score: ${scoreNumber}`
             numberOfQuestion = 1

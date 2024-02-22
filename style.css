@@ -63,9 +63,9 @@ button{
     cursor: pointer;
 }
 
-/* reset */
+/* restart */
 
-#reset{
+#restart{
     background: transparent;
     color: #1d1c1c;
     border-radius: 2px;
@@ -82,7 +82,7 @@ li:hover{
 button:hover{
     background-color: #3d3b3b;
 }
-#reset:hover{
+#restart:hover{
     background-color: #797575;
     color: aliceblue;
 }
